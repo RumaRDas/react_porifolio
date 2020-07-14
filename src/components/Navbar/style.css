@@ -1,3 +1,24 @@
-nav.navbar.navbar-default {
-    margin-bottom: 0;
-  }
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #17a2b8;
+          box-shadow: 2px 2px 5px #17a2b8;
+  background: #fff;
+  opacity: 0.9;
+  
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+
+.navbar .nav-item .nav-link {
+  color: #252525;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #329286;
+}
+
+.navbar .nav-item:last-child {
+  padding-right: 0;
+}

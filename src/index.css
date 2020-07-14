@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 html,
 body,
 #root,
@@ -10,4 +9,9 @@ div[data-reactroot] {
   height: 100%;
   padding: 0;
   margin: 0;
+}
+body {
+ background-image: url("./images/shap1.gif");
+
+  margin-top: 86px;
 }
