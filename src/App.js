@@ -1,10 +1,22 @@
 import React from 'react';
+
 import './App.css';
+import Wrapper from './components/Wrapper';
+import Navbar from './components/Navbar';
+import Footer from "./components/Footer";
+import About from './pages/About';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
     <div className="App">
-     <h1> Hello </h1>
+      <Navbar />
+      <Wrapper>
+        <About />
+        <ContactForm/>
+      </Wrapper>
+      <Footer />
+
     </div>
   );
 }
