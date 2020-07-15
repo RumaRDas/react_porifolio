@@ -5,18 +5,19 @@ import Heroku from '../../images/icons8-heroku-48.png';
 import Prtfolio from '../../images/portfolio.png';
 import Weather from '../../images/weather_ dashboard.png';
 import Code_Quize from '../../images/Code _quize.png';
+import Password from '../../images/Password_ Generator.png';
 
 import "./style.css";
 
-const index = () =>{
+const index = () => {
     return (
-       
+
         <div className="container">
             <div className="row mt-3">
                 <div className="col-md-4 shadow">
                     <div className="itemBox">
                         <a href="https://lion-movie-store.herokuapp.com/" target="_blank">
-                            <img src={LionAPP}alt="lionsStore" className="img-fluid"/>
+                            <img src={LionAPP} alt="lionsStore" className="img-fluid" />
                         </a>
 
                         <div className="box">
@@ -25,47 +26,47 @@ const index = () =>{
                             <a href="https://github.com/RumaRDas/LionStoreApp.git" target="_blank">
                                 <i className="fa fa-github text-info icon"></i>
                             </a>
-                            <a  href="https://lion-movie-store.herokuapp.com/" target="_blank">
-                                <img  src={Heroku} alt="heroku" className="imgSize"/>
+                            <a href="https://lion-movie-store.herokuapp.com/" target="_blank">
+                                <img src={Heroku} alt="heroku" className="imgSize" />
                             </a>
                         </div>
                     </div>
 
                 </div>
                 <div className="col-md-4 shadow">
-                <div className="itemBox">
-                    <a href="https://nicolegeorge.github.io/suicide-squad-GoT-app/" target="_blank">
-                        <img src={Suicide} alt="Nature" className="img-fluid"/>
-                    </a>
-                    <div className="box">
-                        <h3 className="text-info ">Game of Thrones</h3>
-                        <p>This Is a group project Using Foundation CSS Framework, CSS, Jquery, JavaScript</p>
-                        <a href="https://github.com/NicoleGeorge/suicide-squad-GoT-app.git" target="_blank">
-                            <i className="fa fa-github text-info icon"></i>
+                    <div className="itemBox">
+                        <a href="https://nicolegeorge.github.io/suicide-squad-GoT-app/" target="_blank">
+                            <img src={Suicide} alt="Nature" className="img-fluid" />
                         </a>
+                        <div className="box">
+                            <h3 className="text-info ">Game of Thrones</h3>
+                            <p>This Is a group project Using Foundation CSS Framework, CSS, Jquery, JavaScript</p>
+                            <a href="https://github.com/NicoleGeorge/suicide-squad-GoT-app.git" target="_blank">
+                                <i className="fa fa-github text-info icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="itemBox">
+                        <a href="https://rumardas.github.io/portfolio" target="_blank">
+                            <img src={Prtfolio} alt="Nature" className="img-fluid" />
+                        </a>
+                        <div className="box">
+                            <h3 className="text-info ">BootCamp PortFolio</h3>
+                            <p>Responsive website design using HTML5, CSS,BootStrap</p>
+                            <a href="https://github.com/RumaRDas/portfolio.git" target="_blank">
+                                <i className="fa fa-github text-info icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="col-md-4">
-            <div className="itemBox">
-                <a href="https://rumardas.github.io/portfolio" target="_blank">
-                    <img src={Prtfolio} alt="Nature" className="img-fluid"/>
-                </a>
-                <div className="box">
-                    <h3 className="text-info ">BootCamp PortFolio</h3>
-                    <p>Responsive website design using HTML5, CSS,BootStrap</p>
-                    <a href="https://github.com/RumaRDas/portfolio.git" target="_blank">
-                        <i className="fa fa-github text-info icon"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-                </div>
-                <div className="row pt-0 pt-md-4 ">
+            <div className="row pt-0 pt-md-4 ">
                 <div className="col-md-4">
                     <div className="itemBox">
                         <a href="https://rumardas.github.io/weather_dashboard/" target="_blank">
-                            <img src={Weather} alt="Nature" className="img-fluid"/>
+                            <img src={Weather} alt="Nature" className="img-fluid" />
                         </a>
                         <div className="box">
                             <h3 className="text-info ">Weather Dashboard</h3>
@@ -77,24 +78,36 @@ const index = () =>{
                     </div>
                 </div>
                 <div className="col-md-4">
-                <div className="itemBox">
-                    <a href="https://rumardas.github.io/code_quiz/" target="_blank">
-                        <img src={Code_Quize} alt="beauti" className="img-fluid"/>
-                    </a>
-                    <div className="box">
-                        <h3 className="text-info ">Code Quiz</h3>
-                        <p>Responsive website design using HTML5, CSS,BootStrap, Javascript</p>
-                        <a href="https://github.com/RumaRDas/code_quiz.git" target="_blank">
-                            <i className="fa fa-github text-info icon"></i>
+                    <div className="itemBox">
+                        <a href="https://rumardas.github.io/code_quiz/" target="_blank">
+                            <img src={Code_Quize} alt="beauti" className="img-fluid" />
                         </a>
+                        <div className="box">
+                            <h3 className="text-info ">Code Quiz</h3>
+                            <p>Responsive website design using HTML5, CSS,BootStrap, Javascript</p>
+                            <a href="https://github.com/RumaRDas/code_quiz.git" target="_blank">
+                                <i className="fa fa-github text-info icon"></i>
+                            </a>
+                        </div>
                     </div>
-
                 </div>
-
+                <div className="col-md-4">
+                    <div className="itemBox">
+                        <a href="https://rumardas.github.io/password_generator/" target="_blank">
+                            <img src={Password}alt="Nature" className="img-fluid"/>
+                </a>
+                            <div className="box">
+                                <h3 className="text-info ">Password Generator</h3>
+                                <p>Responsive website design using HTML5, CSS,BootStrap, Javascript</p>
+                                <a href="https://github.com/RumaRDas/password_generator.git" target="_blank">
+                                    <i className="fa fa-github text-info icon"></i>
+                                </a>
+                            </div>
             </div>
 
-                </div> 
+                    </div>
                 </div>
+            </div>
                
 
     )
