@@ -1,4 +1,7 @@
 import React from 'react';
+import LionAPP from '../../images/Lion_app.png';
+import Heroku from '../../images/icons8-heroku-48.png';
+
 import "./style.css";
 
 const index = () =>{
@@ -9,7 +12,7 @@ const index = () =>{
                 <div className="col-md-4 shadow">
                     <div className="itemBox">
                         <a href="https://lion-movie-store.herokuapp.com/" target="_blank">
-                            <img src="./images/Lion_app.png" alt="lionsStore" className="img-fluid"/>
+                            <img src={LionAPP}alt="lionsStore" className="img-fluid"/>
                         </a>
 
                         <div className="box">
@@ -19,7 +22,7 @@ const index = () =>{
                                 <i className="fa fa-github text-info icon"></i>
                             </a>
                             <a  href="https://lion-movie-store.herokuapp.com/" target="_blank">
-                                <img  src="./images/icons8-heroku-48.png" alt="heroku" className="imgSize"/>
+                                <img  src={Heroku} alt="heroku" className="imgSize"/>
                             </a>
                         </div>
                     </div>
