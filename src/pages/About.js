@@ -7,16 +7,18 @@ import Col from "../components/Col";
 
 function About() {
   return (
-    <div>
 
-      <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
-          <AboutText />  
-          </Col>
-        </Row>
-      </Container>
-    </div>
+
+<Container className="background-color">
+<Row>
+  <Col size="md-12">
+  <AboutText />  
+  </Col>
+</Row>
+</Container>
+
+    
+
   );
 }
 

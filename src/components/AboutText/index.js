@@ -1,4 +1,5 @@
 import React from 'react';
+import pic from '../../images/ruma.jpg'
 import "./style.css";
 
 const index = ()  =>{
@@ -7,7 +8,7 @@ const index = ()  =>{
         <div className="container substyle ">
         <div className="row">
             <div className="col-lg-5 col-md-12  ">
-                <img src="./images/ruma.jpg" className="img-fluid d-none d-lg-block float-right " alt=""/>
+                <img src={pic} className=" aboutImg imgfluid d-none d-lg-block float-right " alt=""/>
             </div>
             <div className="col-lg-6 col-md-12 abstyle">
                 <h1 className="display-4 text-info  ">About Me</h1>
@@ -20,6 +21,7 @@ const index = ()  =>{
                         Resume</a>
             </div>
         </div>
+
     </div>  
         </div>
     )

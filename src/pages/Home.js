@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Hero from "../components/Hero";
+import Row from "../components/Row";
+import Col from "../components/Col";
 
 function Home() {
-    return (
+  return (
+    <Row>
+      <Col size="md-12">
+        <Hero />
+      </Col>
+    </Row>
 
-        <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Hero>
- 
-    )
+  )
 }
 
-export default Home
+export default Home;
