@@ -21,7 +21,8 @@ body {
      }
    
      .Aboutback{
-    background: rgb(178, 187, 192);;
+    background: rgb(178, 187, 192);
+    text-align: center;
      }
    
      #portfolio{
@@ -44,7 +45,7 @@ body {
     position: relative;
     text-align: center;
     padding: 25px;
-  margin-bottom: -10px;
+    margin-bottom: -10px;
     margin-top: -30px;
    
   }
@@ -71,4 +72,15 @@ body {
     transform: skew(0deg, -4deg);
     border: 20px solid transparent;
    
+  }
+  .skillBack{
+    background-color:rgb(178, 187, 192); 
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 40px;
+  }
+  @media (max-width: 579px) {
+    #showcase h1 {
+      font-size: 4rem;
+    }
   }

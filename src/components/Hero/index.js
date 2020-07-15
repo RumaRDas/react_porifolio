@@ -12,13 +12,13 @@ const  Hero = (props) =>{
             <div className="container ">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 ">
-                        <h1 className="display-1  ">Ruma Das</h1>
+                        <h1 className="display-1 h1Style  ">Ruma Das</h1>
                         <p className="lead">Hello, I am a full-stack web developer. Web designing has been a passion of mine
                             for a very long time and I would be honoured to help provide an insightful website for
                             anyone. </p>
                     </div>
                     <div className="col-lg-6 mt-5  ">
-                        <img src={pic} className="img-fluid d-none d-lg-block float-right " alt="homeSImg"/>
+                        <img src={pic} className="img-fluid d-none d-lg-block float-right  pt-5" alt="homeSImg"/>
                     </div>
                 </div>
             </div>
