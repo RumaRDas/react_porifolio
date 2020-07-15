@@ -10,13 +10,13 @@ function About() {
 
 
 <Container className="Aboutback">
-<div >
+
 <Row>
   <Col size="md-12">
   <AboutText />  
   </Col>
 </Row>
-</div>
+
 </Container>
 
     

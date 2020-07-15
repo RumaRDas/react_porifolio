@@ -8,7 +8,7 @@ import '../App.css';
 const Portfolio = ()  => {
     return (
         <Container id="portfolio" className="backPort">
-        <div >
+    
         <Row>
           <Col size="md-12">
           <h2 className="text-info">Portfolio</h2>
@@ -16,7 +16,8 @@ const Portfolio = ()  => {
           <PortfolioText />  
           </Col>
         </Row>
-        </div>
+        <div id="blackStyle"></div>
+
         </Container>
         
     )

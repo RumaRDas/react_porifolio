@@ -40,3 +40,35 @@ body {
 
     background-color: rgb(46, 43, 43);
    }
+   #blackStyle{
+    position: relative;
+    text-align: center;
+    padding: 25px;
+  margin-bottom: -10px;
+    margin-top: -30px;
+   
+  }
+  #blackStyle:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: rgb(46, 43, 43);
+   transform: skew(0deg, 4deg);
+   border: 20px solid transparent;
+   opacity: 0.5px;
+  }
+  #blackStyle:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+   background: rgb(46, 43, 43);
+    transform: skew(0deg, -4deg);
+    border: 20px solid transparent;
+   
+  }

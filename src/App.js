@@ -7,6 +7,7 @@ import About from './pages/About';
 import ContactForm from './components/ContactForm';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
+import MySkills from './pages/MySkills';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <Wrapper>
         <About />
         <Portfolio />
+        <MySkills />
         <ContactForm />
+   
       </Wrapper>
       <Footer />
 
