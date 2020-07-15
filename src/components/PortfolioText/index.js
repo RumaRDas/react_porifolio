@@ -2,6 +2,7 @@ import React from 'react';
 import LionAPP from '../../images/Lion_app.png';
 import Suicide from '../../images/project_1.png';
 import Heroku from '../../images/icons8-heroku-48.png';
+import Prtfolio from '../../images/portfolio.png';
 
 import "./style.css";
 
@@ -29,20 +30,34 @@ const index = () =>{
                     </div>
 
                 </div>
-                <div class="col-md-4 shadow">
-                <div class="itemBox">
+                <div className="col-md-4 shadow">
+                <div className="itemBox">
                     <a href="https://nicolegeorge.github.io/suicide-squad-GoT-app/" target="_blank">
-                        <img src={Suicide} alt="Nature" class="img-fluid"/>
+                        <img src={Suicide} alt="Nature" className="img-fluid"/>
                     </a>
-                    <div class="box">
-                        <h3 class="text-info ">Game of Thrones</h3>
+                    <div className="box">
+                        <h3 className="text-info ">Game of Thrones</h3>
                         <p>This Is a group project Using Foundation CSS Framework, CSS, Jquery, JavaScript</p>
                         <a href="https://github.com/NicoleGeorge/suicide-squad-GoT-app.git" target="_blank">
-                            <i class="fa fa-github text-info icon"></i>
+                            <i className="fa fa-github text-info icon"></i>
                         </a>
                     </div>
                 </div>
             </div>
+            <div className="col-md-4">
+            <div className="itemBox">
+                <a href="https://rumardas.github.io/portfolio" target="_blank">
+                    <img src={Prtfolio} alt="Nature" className="img-fluid"/>
+                </a>
+                <div className="box">
+                    <h3 className="text-info ">BootCamp PortFolio</h3>
+                    <p>Responsive website design using HTML5, CSS,BootStrap</p>
+                    <a href="https://github.com/RumaRDas/portfolio.git" target="_blank">
+                        <i className="fa fa-github text-info icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
                 </div>
                 </div>
                
