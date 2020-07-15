@@ -4,6 +4,7 @@ import Suicide from '../../images/project_1.png';
 import Heroku from '../../images/icons8-heroku-48.png';
 import Prtfolio from '../../images/portfolio.png';
 import Weather from '../../images/weather_ dashboard.png';
+import Code_Quize from '../../images/Code _quize.png';
 
 import "./style.css";
 
@@ -75,6 +76,23 @@ const index = () =>{
                         </div>
                     </div>
                 </div>
+                <div className="col-md-4">
+                <div className="itemBox">
+                    <a href="https://rumardas.github.io/code_quiz/" target="_blank">
+                        <img src={Code_Quize} alt="beauti" className="img-fluid"/>
+                    </a>
+                    <div className="box">
+                        <h3 className="text-info ">Code Quiz</h3>
+                        <p>Responsive website design using HTML5, CSS,BootStrap, Javascript</p>
+                        <a href="https://github.com/RumaRDas/code_quiz.git" target="_blank">
+                            <i className="fa fa-github text-info icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
                 </div> 
                 </div>
                
