@@ -22,7 +22,7 @@ const  Hero = (props) =>{
                     </div>
                 </div>
             </div>
-        
+            <div id="navbarhead"></div>
         </div>   
     </div>
   );

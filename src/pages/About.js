@@ -1,20 +1,22 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Container from "../components/Container";
 import AboutText from "../components/AboutText"
 import Row from "../components/Row";
 import Col from "../components/Col";
+import '../App.css';
 
 function About() {
   return (
 
 
-<Container className="background-color">
+<Container className="Aboutback">
+<div >
 <Row>
   <Col size="md-12">
   <AboutText />  
   </Col>
 </Row>
+</div>
 </Container>
 
     

@@ -1,0 +1,42 @@
+body {
+    background-image: url("./images/shap1.gif");
+   
+     margin-top: 86px;
+   }
+   
+     a:link {
+       color: #5BC0DE;
+       text-decoration: none;
+     }
+   
+     a:hover {
+       color: rgb(83, 83, 114) ;
+     }
+     .navbarhead{
+       position: relative;
+       text-align: center;
+       padding: 25px;
+       margin-top: 50px;
+       background: rgb(178, 187, 192);
+     }
+   
+     .Aboutback{
+    background: rgb(178, 187, 192);;
+     }
+   
+     #portfolio{
+       background-color: rgb(46, 43, 43);
+       color: white;
+       padding-bottom: 5px;
+       padding-top: 7px;
+       text-align: center;
+   }
+   
+   #portfolio .itemBox:hover{
+   
+     transform: scale(1.05); 
+   }
+  .backPort{
+
+    background-color: rgb(46, 43, 43);
+   }
