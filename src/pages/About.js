@@ -9,7 +9,7 @@ function About() {
   return (
 
 
-<Container className="Aboutback">
+<Container  id="about" className="Aboutback">
 
 <Row>
   <Col size="md-12">

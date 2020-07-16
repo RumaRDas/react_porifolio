@@ -74,10 +74,14 @@ body {
    
   }
   .skillBack{
-    background-color:rgb(178, 187, 192); 
+    background-color:rgb(241, 244, 247); 
     text-align: center;
     padding-bottom: 5px;
     padding-top: 40px;
+  }
+
+  .contactBack{
+    background: rgb(178, 187, 192);
   }
   @media (max-width: 579px) {
     #showcase h1 {
