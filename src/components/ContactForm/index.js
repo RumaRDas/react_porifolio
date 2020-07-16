@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import ContactCard from "./ContactCard";
 
 // Using the datalist element we can create autofill suggestions based on the props.breeds array
 function SearchForm() {
@@ -59,6 +60,8 @@ function SearchForm() {
     </form>
 </div>
 </div>
+<ContactCard />
+
 </div>
 </div>
   );
